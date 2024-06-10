@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <div id="container">
+        <div class="weather-box">
+            <form class="search-box" action="#" onsubmit="return false;">
+                <input type="search" id="search-input" placeholder="search for places...">
+                <button type="submit" id="searchBtn">
+                    <i class="uil uil-search"></i>
+                </button>
+            </form>
+    
+            <p id="location"></p>
+            <div id="weather-img"></div>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="wind"></p>
+        </div>
+        <footer>&copy; 2024. Developed by <a href="https://linktr.ee/victor_ememe"> Victor Ememe</a> </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
